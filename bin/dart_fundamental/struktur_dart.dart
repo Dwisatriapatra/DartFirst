@@ -53,5 +53,16 @@ void main() {
   //print(5 % 2);   // int modulo = 1
   //print(2 + 4 * 2); // output: 10
 
-  
+  //penggunaan final dan const
+  //const harus sudah diketahui nilainya sebelum program dijalankan
+  //sedangkan final nilainya dapat diinisialisasi ketika program dijalankan/runtime
+  // const pi = 3.14;
+  // final pi2 = double.parse(stdin.readLineSync()!); //baru akan diinisialisasi ketika runtime
+  // print("pi = $pi, pi2 = $pi2");
+  //contoh penggunaan null safety dan bang operator
+  // String? favPlace = "Beach";
+  // void travel(String? favPlace){
+  //   print("going to $favPlace");
+  // }
+  // travel(favPlace);
 }
